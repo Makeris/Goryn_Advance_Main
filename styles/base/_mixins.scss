@@ -1,0 +1,34 @@
+@mixin flex_center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@mixin flex_custom( $justify-content, $flex-direction ) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+@mixin flex($direction, $wrap, $justify-content, $align-items) {
+    display: flex;
+    flex-flow: $direction $wrap;
+    justify-content: $justify-content;
+    align-items: $align-items;
+}
+
+@mixin flex_custom( $justify-content ) {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+@mixin flex_items( $align_items ) {
+    display: flex;
+    align-items: center;
+    
+    
+}
+

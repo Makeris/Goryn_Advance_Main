@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: red; */
+    padding-top: 100px;
+}
+
+.main {
+
+    margin: 0 auto;
+    width: 85%;
+    height: 400px;
+    background-color: gray;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 10px;
+}
+p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main_item {
+    width: 30%;
+    height: 100%;
+    /* background-colo; */
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.main_item:nth-child(1) {
+    padding: 10px;
+    background-color: lightgray;
+}
+.main_item:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* justify-content: center;
+    /* a */
+
+    /* align-items: center; */
+}
+
+input {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid lightblue;
+}
+
+.inc_count,.dec_count {
+    background-color: blue;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.inc_count:focus,.dec_count:focus {
+    background-color: gray;
+}
+
+.radio_buttons_form {
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.radio_select {
+    margin: 0 5px;
+}
+
+.add_btn,.buy_btn {
+    width: 20%;
+    border: 1px solid #000;
+    background-color: orange;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    transform: translate(-50%);
+    margin: 10px;
+    margin-left: 50%;
+    
+}
+
+.buy_btn {
+    background-color:green;
+}
+.dec_count {
+    background-color: red;
+}
+
+.buttons_count {
+    display: flex;
+    justify-content: center;
+}
+button {
+    padding: 5px;
+    margin: 0 5px;
+    width: 20%;
+}
+
+#textarea {
+    margin: 10px 0;
+    overflow: scroll;
+}
+
+.area_count {
+    height: 200px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #fff;
+    overflow: scroll;
+
+
+}
+.area_total {
+    padding: 10px;
+    height: 200px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    background-color: #fff;
+    overflow: scroll;
+
+
+}
+
+.area_count::-webkit-scrollbar { width: 0; }
+.area_total::-webkit-scrollbar { width: 0; }
+
+
+.main_item:nth-child(3) {
+    padding: 20px;
+
+}

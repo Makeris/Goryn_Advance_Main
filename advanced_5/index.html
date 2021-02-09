@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main_item">
+            <p>Баланс</p>
+            <input disabled type="text" name="" id="balance">
+            <p>Пиво</p>
+            <input disabled type="text" name="" id="beer">
+            <p>Вино</p>
+            <input disabled type="text" name="" id="vine">
+            <p>Pepsi</p>
+            <input disabled type="text" name="" id="pepsi">
+
+        </div>
+        <div class="main_item">
+            <p class="count_title">Count</p>
+            <input type="text" name="" id="count">
+            <div class="buttons_count">
+                
+                <button class="inc_count"> + </button>
+                <button  class="dec_count"> - </button>
+            </div>
+            <div class="radio_buttons">
+                <form class="radio_buttons_form" name="radio_buttons_form">
+
+                    <input class="radio_select" type="radio" value="beer" name="radio" id="beer_radio">
+                    Пиво
+                    <input class="radio_select" type="radio" value="vine" name="radio" id="vine_radio">
+                    Вино
+                    <input class="radio_select" checked type="radio" value="pepsi" name="radio" id="pepsi_radio">
+                    Pepsi
+                </form>
+            </div>
+
+            <button class="add_btn" type="button">Add</button>
+                <div class="area_count"></div>
+            <button class="buy_btn">Buy</button>
+        </div>
+        <div class="main_item">
+            <div class="area_total"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>

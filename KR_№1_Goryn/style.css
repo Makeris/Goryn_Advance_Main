@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 100px;
+}
+
+
+.main {
+   
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+button {
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid black;
+    width: 100px;
+    background-color: gray;
+    color: White;
+    border: 2px solid #000;
+    padding: 3px;
+}
+
+select {
+    border-radius: 3px;
+    border: 2px solid red ;
+}
+
+input {
+    outline: none;
+    border-radius: 5px;
+    padding: 2px;
+    box-shadow: 0;
+    border: 1px solid #000;
+}
+
+.slider {
+    width: 100%;
+    min-height: 300px;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: serif;
+    
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.edit_btn {
+    margin-right: 5px;
+    background-color: yellow;
+    color: orange;
+    width: 70px;
+
+}
+
+.style_btn {
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+    width: 70px;
+}
+
+
+.editer {
+    width: 100%;
+    height: 300px;
+    
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.edit {
+    padding: 15px;
+    width: 100%;
+    min-height: 300px;
+    background-color: #2340FF;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.text_area {
+    width: 99%;
+    overflow: scroll;
+    
+}
+
+.add_button {
+    width: 100px;
+    background-color: gray;
+    color: White;
+    border: 2px solid #000;
+    padding: 3px;
+}
+
+.save_button {
+    width: 100px;
+    background-color: gray;
+    color: White;
+    border: 2px solid #000;
+    padding: 3px;
+}
+
+.style {
+    padding: 15px;
+    width: 100%;
+    min-height: 300px;
+    background-color: #FFDF41;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+
+
+.style_form {
+    width: 50%;
+   
+}
+
+.selector {
+    background-color: white;
+    width: 50%;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    display: none;
+    
+}
+
+.text_color_selector {
+    width: 212px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+
+}
+
+.text_color_selector_item {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+
+.text_color_selector_item_red {
+    background-color: red;
+}
+
+
+.text_color_selector_item_lime {
+    background-color: lime;
+}
+
+
+.text_color_selector_item_yellow {
+    background-color: yellow;
+}
+
+.text_color_selector_item_brown {
+    background-color: brown;
+}
+
+.text_color_selector_item_blue {
+    background-color: blue;
+}
+
+.text_color_selector_item_orange {
+    background-color: orange;
+}
+
+.text_color_selector_item_purple {
+    background-color: purple;
+}
+
+.text_color_selector_item_black {
+    background-color: black;
+}
+
+.text_color_selector_item_white {
+    background-color: white;
+}
+
+
+
+
+
+/* /////////////////////////// */
+.background_selector {
+    width: 212px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+}
+
+
+.background_color_selector_item_red {
+    background-color: red;
+}
+
+
+.background_color_selector_item_lime {
+    background-color: lime;
+}
+
+
+.background_color_selector_item_yellow {
+    background-color: yellow;
+}
+
+.background_color_selector_item_brown {
+    background-color: brown;
+}
+
+.background_color_selector_item_blue {
+    background-color: blue;
+}
+
+.background_color_selector_item_orange {
+    background-color: orange;
+}
+
+.background_color_selector_item_purple {
+    background-color: purple;
+}
+
+.background_color_selector_item_black {
+    background-color: black;
+}
+
+.background_color_selector_item_white {
+    background-color: white;
+}
+/* /////////////////////////// */
+
+
+.creater {
+    height: 300px;
+    padding: 15px;
+    display: none;
+}
+
+.creater_header {
+    margin-bottom: 20px;
+}
+
+
+.table_block {
+    background-color: lime;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 15px 15px;
+    height: 200px;
+    display: none;
+}
+
+.list_style {
+    background-color: gray;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 15px 15px;
+    height: 200px;
+    display: none;
+}
+
+
+td {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #000;
+}
+
+ul {
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

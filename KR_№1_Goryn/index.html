@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="main">
+        <div class="slider">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          
+        </div>
+        <div class="buttons">
+            <button class="edit_btn" type="button">Edit</button>
+            <button class="style_btn" type="button">Style</button>
+        </div>
+        <div class="editer">
+            <div class="edit">
+                <textarea value='dffd' class="text_area" name="" id="" cols="30" rows="10"></textarea>
+                <div class="buttons_add_save">
+                    <button class="add_button" type="button">Add</button>
+                    <button class="save_button" type="button">Save</button>
+                </div>
+            </div>
+
+            <div class="style">
+                <div class="block_form">
+
+                    <form name="style_form">
+                        Font Size
+                        <div class="radion_size">
+                            <input type="radio" value="12px" name="fs" id=""> 12px
+                            <input type="radio" value="14px" name="fs" id=""> 14px
+                            <input checked type="radio" value="16px" name="fs" id=""> 16px
+                            <input type="radio" value="18px" name="fs" id=""> 18px
+                            <input type="radio" value="20px" name="fs" id=""> 20px
+                        </div>
+    
+                        <div class="font_family">
+                            Font Family <br>
+                            <select name="familySelect" id="mySelect">
+                                <option selected disabled value="serif">Choose option</option>
+                                <option value="serif">Default</option>
+                                <option name='ff' value="sans-serif">sans-serif</option>
+                                <option name='ff' value="cursive">cursive</option>
+                                <option name='ff' value="fangsong">fangsong</option>
+                                <option name='ff' value="fantasy">fantasy</option>
+                            </select>
+                        </div>
+    
+                        <div class="colors">
+                            Colors: <br>
+                            <button type="button" class="text_color">Color of text</button>
+                            <button type="button" class="background_color_selector">Background color</button>
+                        </div>
+    
+                        <div class="text_style">
+                            <input type="checkbox" name="ckeckboxBold" id="">Bold text
+                            <input type="checkbox" name="checkboxCursive" id="">Cursive text 
+                        </div>
+    
+    
+                    </form>
+                </div>
+
+                <div class="selector">
+
+                    <div class="text_color_selector">
+                        <div class="text_color_selector_item text_color_selector_item_red"></div>
+                        <div class="text_color_selector_item text_color_selector_item_lime"></div>
+                        <div class="text_color_selector_item text_color_selector_item_yellow"></div>
+                        <div class="text_color_selector_item text_color_selector_item_brown"></div>
+                        <div class="text_color_selector_item text_color_selector_item_blue"></div>
+                        <div class="text_color_selector_item text_color_selector_item_orange"></div>
+                        <div class="text_color_selector_item text_color_selector_item_purple"></div>
+                        <div class="text_color_selector_item text_color_selector_item_black"></div>
+                        <div class="text_color_selector_item text_color_selector_item_white"></div>
+                    </div>
+
+
+
+                    <div class="background_selector">
+                        <div class="text_color_selector_item background_color_selector_item_red"></div>
+                        <div class="text_color_selector_item background_color_selector_item_yellow"></div>
+                        <div class="text_color_selector_item background_color_selector_item_blue"></div>
+                        <div class="text_color_selector_item background_color_selector_item_brown"></div>
+                        <div class="text_color_selector_item background_color_selector_item_lime"></div>
+                        <div class="text_color_selector_item background_color_selector_item_purple"></div>
+                        <div class="text_color_selector_item background_color_selector_item_orange"></div>
+                        <div class="text_color_selector_item background_color_selector_item_black"></div>
+                        <div class="text_color_selector_item background_color_selector_item_white"></div>
+                    </div>
+
+
+                   
+
+                </div>
+            </div>
+        
+        
+        
+        
+        
+            <div class="creater">
+                <div class="creater_header">
+                    Choose what you wnat:
+                    <form name='createrForm'>
+                        <input value="a" type="radio" name="table_list" id=""> Table
+                        <input value="b" type="radio" name="table_list" id=""> List
+                    </form>
+                </div>
+    
+                <div class="table_block">
+    
+    
+                    <div class="countTr">
+                        Count of TR: <input placeholder="Count of TR" type="text" class="trC" name="countTr" id="">
+                    </div>
+                    <div class="countTd">
+                        Count of TD: <input placeholder="Count of TD" type="text" class="tdC" name="countTd" id="">
+                    </div>
+                    <span class="additional_style">Add style to your table</span>
+        
+                    <div class="widthTd">
+                        width of TD: <input placeholder="Width of TD" type="text" name="widthTd" class="wTd" id="">
+                    </div>
+                    <div class="HeightTd">
+                        Height of TD: <input placeholder="Height of TD" type="text" name="heightTd" class="hTd" id="">
+                    </div>
+        
+                    <div class="border_style">
+                        Width of border: <input class="borderWidth" type="text" placeholder="Width: 1px">
+                        Type of border: <select id="borderStyle">
+                            <option selected value="solid">Solid</option>
+                            <option value="dashed">Dashed</option>
+                        </select>
+                        Color of border: <select id="borderColor">
+                            <option selected value="black">black</option>
+                            <option value="red">red</option>
+                            <option value="lime">green</option>
+                            <option value="blue">blue</option>
+                        </select>
+                    </div>
+                    <button class="createTable" type='button'>Create table</button>
+                </div>
+    
+                <div class="list_style">
+                    <div class="countLi">
+                        Count of Li:<input class="bb" type="text" placeholder="Count of Li"><br>
+                        Type of marks: <select id="marksSelect">
+                            <option selected value="circle">Circle</option>
+                            <option value="disc">Disc</option>
+                            <option value="square">Square</option>
+                        </select>
+    
+                    </div>
+                    <button class="listCreator" type="button">Create list</button>
+                </div>
+    
+    
+    
+            </div>
+        </div>  
+
+
+
+
+
+    </div>
+
+
+    <div class="table_test"></div>
+
+    
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
